@@ -1,7 +1,9 @@
-webapi\project\AccountsService.class
-webapi\project\resource\AccountsResource.class
-webapi\project\resource\TransactionsResource.class
-webapi\project\bank\Accounts.class
-webapi\project\bank\Customers.class
-webapi\project\bank\Transactions.class
-webapi\project\resource\CustomersResource.class
+webapi\project\bank\Transaction.class
+webapi\project\TransactionService.class
+webapi\project\bank\Account.class
+webapi\project\CustomerService.class
+webapi\project\resource\TransactionResource.class
+webapi\project\bank\Customer.class
+webapi\project\AccountService.class
+webapi\project\resource\AccountResource.class
+webapi\project\resource\CustomerResource.class
