@@ -17,14 +17,6 @@ public class Customer {
     String email;
     String password;
     
-    public Customer(){
-        id = 0;
-        name = "";
-        address = "";
-        email = "";
-        password = "";
-    }
-    
     
     public int getId(){
         return id;
