@@ -19,8 +19,42 @@ public class Transaction {
     String description;
     Double balance;
     
+    public int getId(){
+        return id;
+    }
     
+    public void setId(int id){
+        this.id = id;
+    }
     
+    public Date getDate(){
+        return date;
+    }
     
+    public void setDate(Date date){
+        this.date = date;
+    }
     
+    public Double getTotalTranaction(){
+        return totalTransaction;
+    }
+    
+    public void setTotalTransaction(Double totalTransaction){
+        this.totalTransaction = totalTransaction;
+    }
+    
+    public String getDescription(){
+        return description;
+    }
+    public void setDescription(String description){
+        this.description = description;
+    }
+    
+    public Double getBalance(){
+        return balance;
+    }
+    
+    public void setBalance(Double balance){
+        this.balance = balance;
+    }
 }
